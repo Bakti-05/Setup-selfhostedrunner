@@ -24,6 +24,7 @@ git push -u origin main
 # pilih os requirement yang digunakan (disini menggunakan Linux)
 # ikuti step pada : Download, dan Configure (tidak usah running run.sh terlebih dahulu)
 ```
+
 ### 3. testing
 ```
 # pada working directory buat folder dengan nama : .github/workflows
@@ -47,10 +48,13 @@ git commit -m 'menambahkan file sample'
 # masuk ke working direktori interface
 git push -u origin main
 ```
+
 ### 4. cek action
 ```
 # masuk ke dalam repository
 # pilih menu action > all workflows
 # monitor perubahan pada workflow runs
 # monitor juga perubahan job pada Linux interface 
+# cek perubahan commit
+$ ls _diag/
 ```
