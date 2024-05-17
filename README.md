@@ -52,4 +52,5 @@ git push -u origin main
 # masuk ke dalam repository
 # pilih menu action > all workflows
 # monitor perubahan pada workflow runs
+# monitor juga perubahan job pada Linux interface 
 ```
