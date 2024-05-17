@@ -29,7 +29,7 @@ git push -u origin main
 ```
 # pada working directory buat folder dengan nama : .github/workflows
 # buat file baru didalam direktori yang baru dibuat, misal sample.yml
-```
+
 on: [push]
 
 jobs:
@@ -40,7 +40,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Run a one-line script
       run: echo Hello, world!
-```
+
 git add .github/<tab>
 git commit -m 'menambahkan file sample'
 # masuk ke linux interface dan jalankan ./run.sh
