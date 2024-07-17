@@ -1,28 +1,21 @@
-# projek untuk mencoba connect ke git server
-## dengan self host runner
+# Self Host Runner
+
 ### 1. set up repository
-```
-# login ke akun github
-# buat repository baru, dan koneksikan ke local git
-# di localhost, buat directory baru
+```bash
+# Pada direktori baru
 git init
-# buat file README.md
 git add README.md
-git commit -m 'commit pertama'
-git branch
-# setting branch utama (karena saya lebih nyaman menggunakan branch main daripada master)
+git commit -m 'initial commit'
 git branch -M main
 git remote add origin git@github.com:<user_github>/<nama_repository>.git
 git push -u origin main
 ```
 
 ### 2. set up self hosted runner
-```
-# masuk ke repository pada github
-# Settings > Actions > Runners > New self-hosted runner
-# pilih os requirement yang digunakan (disini menggunakan Linux)
+Masuk ke repository pada github :
+> 1. Settings > Actions > Runners > New self-hosted runner
+> 2. Pilih os requirement yang digunakan (disini menggunakan Linux)
 # ikuti step pada : Download, dan Configure (tidak usah running run.sh terlebih dahulu)
-```
 
 ### 3. testing
 ```
@@ -49,11 +42,11 @@ git push -u origin main
 ```
 
 ### 4. cek action
-```
-# masuk ke dalam repository
-# pilih menu action > all workflows
-# monitor perubahan pada workflow runs
-# monitor juga perubahan job pada Linux interface 
-# cek perubahan commit
+Masuk ke dalam repository :
+> 1. Pilih menu action > all workflows
+> Monitor perubahan pada workflow runs
+> monitor juga perubahan job pada Linux interface 
+> Cek perubahan commit
+```bash
 $ ls _diag/
 ```
