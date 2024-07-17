@@ -15,7 +15,7 @@ git push -u origin main
 Masuk ke repository pada github :
 > 1. Settings > Actions > Runners > New self-hosted runner
 > 2. Pilih os requirement yang digunakan (disini menggunakan Linux)
-# ikuti step pada : Download, dan Configure (tidak usah running run.sh terlebih dahulu)
+> 3. Ikuti step pada : Download, dan Configure (tidak usah running run.sh terlebih dahulu)
 
 ### 3. testing
 ```
